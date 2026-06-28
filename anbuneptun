@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anbu Neptun Sound Promo</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#111,#1b1b1b,#000);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:500px;
+    background:#181818;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,255,255,.25);
+    text-align:center;
+}
+
+h1{
+    color:#00eaff;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#ffffff;
+    margin-top:20px;
+}
+
+.offer{
+    background:#262626;
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    font-size:18px;
+}
+
+.note{
+    margin-top:20px;
+    background:#202020;
+    padding:15px;
+    border-radius:10px;
+    font-size:15px;
+    line-height:1.6;
+}
+
+.inbox{
+    color:#00ff88;
+    font-size:18px;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+.footer{
+    margin-top:20px;
+    color:#bbbbbb;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🎵 Welcome To Anbu Neptun Sound Promo 🎵</h1>
+
+<h2>📢 Offers</h2>
+
+<div class="offer">3 Posts — <strong>$30</strong></div>
+<div class="offer">5 Posts — <strong>$50–60</strong></div>
+<div class="offer">10 Posts — <strong>$70–80</strong></div>
+<div class="offer">20 Posts — <strong>$150–160</strong></div>
+
+<div class="inbox">
+➡️ Inbox For Proper Negotiations
+</div>
+
+<div class="note">
+📝 My promotions run across <strong>TikTok</strong>,
+<strong>Instagram</strong>, and
+<strong>Facebook</strong>.<br><br>
+
+There will be no change in the offers listed above because I promote sounds across all three platforms. These are the exclusive benefits I provide as a promoter. 😉
+</div>
+
+<div class="footer">
+Thank you for choosing <strong>Anbu Neptun Sound Promo</strong>.
+</div>
+
+</div>
+
+</body>
+</html>
