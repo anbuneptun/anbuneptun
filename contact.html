@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Anbu Neptun Sound Promo</title>
+  <style>
+    :root{
+      --bg1: #111;
+      --bg2: #1b1b1b;
+      --panel: #181818;
+      --muted: #bbbbbb;
+      --accent: #00eaff;
+      --cta: #00ff88;
+      --card: #262626;
+      --note: #202020;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html,body{height:100%;margin:0}
+    body{
+      background: linear-gradient(135deg,var(--bg1),var(--bg2),#000);
+      color: white;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      padding:20px;
+    }
+
+    .container{
+      width:92%;
+      max-width:520px;
+      background:var(--panel);
+      padding:28px;
+      border-radius:18px;
+      box-shadow:0 8px 30px rgba(0,255,255,.08);
+      text-align:center;
+    }
+
+    h1{color:var(--accent);margin:0 0 8px 0;font-size:1.35rem}
+
+    .contact-info{
+      background:var(--card);
+      padding:20px;
+      margin:20px 0;
+      border-radius:10px;
+      line-height:1.8;
+    }
+
+    .contact-info p{margin:12px 0}
+
+    .contact-label{color:var(--accent);font-weight:700}
+
+    .back-link{
+      display:inline-block;
+      margin-top:18px;
+      color:var(--cta);
+      font-size:18px;
+      font-weight:700;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      background:transparent;
+    }
+    .back-link:hover{filter:brightness(1.1)}
+
+    .footer{margin-top:18px;color:var(--muted);font-size:13.5px}
+
+    @media (max-width:420px){
+      .container{padding:20px;border-radius:14px}
+      h1{font-size:1.1rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="region" aria-label="Contact Information">
+    <h1>📮 Let's Negotiate</h1>
+
+    <div class="contact-info">
+      <p><span class="contact-label">Email:</span><br>
+      <a href="mailto:contact@anbuneptun.com" style="color:var(--cta);text-decoration:none;">contact@anbuneptun.com</a></p>
+      
+      <p><span class="contact-label">Instagram:</span><br>
+      <a href="https://instagram.com/anbuneptun" style="color:var(--cta);text-decoration:none;" target="_blank">@anbuneptun</a></p>
+      
+      <p><span class="contact-label">TikTok:</span><br>
+      <a href="https://tiktok.com/@anbuneptun" style="color:var(--cta);text-decoration:none;" target="_blank">@anbuneptun</a></p>
+    </div>
+
+    <a class="back-link" href="index.html">⬅️ Back to Offers</a>
+
+    <div class="footer">
+      Looking forward to working with you! 🎵
+    </div>
+  </div>
+</body>
+</html>
