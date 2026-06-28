@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anbu Neptun Sound Promo</title>
+  <style>
+    :root{
+      --bg1: #111;
+      --bg2: #1b1b1b;
+      --panel: #181818;
+      --muted: #bbbbbb;
+      --accent: #00eaff;
+      --cta: #00ff88;
+      --card: #262626;
+      --note: #202020;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html,body{height:100%;margin:0}
+    body{
+      background: linear-gradient(135deg,var(--bg1),var(--bg2),#000);
+      color: white;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+
+    .container{
+      width:92%;
+      max-width:520px;
+      background:var(--panel);
+      padding:28px;
+      border-radius:18px;
+      box-shadow:0 8px 30px rgba(0,255,255,.08);
+      text-align:center;
+    }
+
+    h1{color:var(--accent);margin:0 0 8px 0;font-size:1.35rem}
+    h2{color:#fff;margin:20px 0 8px;font-size:1.05rem}
+
+    .offer{
+      background:var(--card);
+      padding:12px;
+      margin:8px 0;
+      border-radius:10px;
+      font-size:17px;
+    }
+
+    /* Inbox is an anchor acting like a CTA button */
+    .inbox{
+      display:inline-block;
+      margin-top:18px;
+      color:var(--cta);
+      font-size:18px;
+      font-weight:700;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      background:transparent;
+    }
+    .inbox:hover{filter:brightness(1.1)}
+    .inbox:focus-visible{outline:3px solid rgba(0,255,136,0.18);outline-offset:3px}
+
+    .note{
+      margin-top:20px;
+      background:var(--note);
+      padding:14px;
+      border-radius:10px;
+      font-size:15px;
+      line-height:1.6;
+    }
+
+    .footer{margin-top:18px;color:var(--muted);font-size:13.5px}
+    @media (max-width:420px){
+      .container{padding:20px;border-radius:14px}
+      h1{font-size:1.1rem}
+      .offer{font-size:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="region" aria-label="Anbu Neptun Sound Promo">
+    <h1>🎵 Welcome To Anbu Neptun Sound Promo 🎵</h1>
+
+    <h2>📢 Offers</h2>
+
+    <div class="offer">3 Posts — <strong>$30</strong></div>
+    <div class="offer">5 Posts — <strong>$50–60</strong></div>
+    <div class="offer">10 Posts — <strong>$70–80</strong></div>
+    <div class="offer">20 Posts — <strong>$150–160</strong></div>
+
+    <!-- Internal link to a simple direct page -->
+    <a class="inbox" href="contact.html" aria-label="Open contact page for negotiations">
+      ➡️ Inbox For Proper Negotiations
+    </a>
+
+    <div class="note">
+      📝 My promotions run across <strong>TikTok</strong>,
+      <strong>Instagram</strong>, and
+      <strong>Facebook</strong>.<br><br>
+      There will be no change in the offers listed above because I promote sounds across all three platforms. These are the exclusive benefits I provide as a promoter. 😉
+    </div>
+
+    <div class="footer">
+      Thank you for choosing <strong>Anbu Neptun Sound Promo</strong>.
+    </div>
+  </div>
+</body>
+</html>
